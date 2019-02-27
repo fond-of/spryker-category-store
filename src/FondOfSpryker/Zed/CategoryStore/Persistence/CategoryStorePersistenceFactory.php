@@ -5,8 +5,7 @@ namespace FondOfSpryker\Zed\CategoryStore\Persistence;
 use Spryker\Zed\Kernel\Persistence\AbstractPersistenceFactory;
 
 /**
- * @method \FondOfSpryker\Zed\ShipmentTableRate\ShipmentTableRateConfig getConfig()
- * @method \FondOfSpryker\Zed\ShipmentTableRate\Persistence\ShipmentTableRateQueryContainerInterface getQueryContainer()
+ * @method \FondOfSpryker\Zed\CategoryStore\Persistence\CategoryStoreQueryContainer getQueryContainer()
  */
 class CategoryStorePersistenceFactory extends AbstractPersistenceFactory
 {
